@@ -1,0 +1,35 @@
+/* // Display size 
+ $hld: 1920/100; //Hyper Large Devices, Wide Screens
+$sld: 1600/100; //Super Large Devices, Wide Screens
+$ld: 1280/100; //Large Devices, Wide Screens
+$md: 1024/100; //Medium Devices, Desktop
+$sd: 767/100; //Small Devices, Tablets
+$ssd: 600/100; //Super Small Devices, Tablets
+$esd: 480/100; // ExtraSmall Devices, Phones
+$custom: 320/100; //Custom, IPhone Retina */
+
+
+/*  Super Large Devices, Wide Screens */
+@media screen and (max-width: 1600px) {}
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1200px) {}
+/* Medium Devices, Desktop */
+@media screen and (max-width: 1024px) {
+ 
+}
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {}
+
+/* Super Small Devices, Tablets */  
+@media screen and (max-width: 600px) {}
+
+/* ExtraSmall Devices, Phones */
+@media screen and (max-width : 480px) {
+  
+}
+
+/* Custom, IPhone Retina */
+@media screen and (max-width: 320px) {}
+
+// Всегда в конце
